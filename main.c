@@ -4,14 +4,14 @@
 int you,computer;
 int menu()
 {
-    int ch;
+    int cha;
     printf("\n1. Select Rock");
     printf("\n2. Select Paper");
     printf("\n3. Select Scissor");
     printf("\n4. Exit");
     printf("\nEnter your choice:");
-    scanf("%d",&ch);
-    return(ch);
+    scanf("%d",&cha);
+    return(cha);
 }
 void setup()
 {
